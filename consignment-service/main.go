@@ -7,7 +7,7 @@ import (
 	"sync"
 
 	// Import the generated protobuf code
-	pb "github.com/psousa50/shippy/shippy-service/proto/consignment"
+	pb "github.com/psousa50/shippy/consignment-service/proto/consignment"
 	"google.golang.org/grpc"
 	"google.golang.org/grpc/reflection"
 )

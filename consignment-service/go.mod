@@ -1,5 +1,8 @@
-module github.com/psousa50/shippy-service
+module github.com/psousa50/shippy/consignment-service
 
 go 1.13
 
-require google.golang.org/grpc v1.25.1 // indirect
+require (
+	github.com/golang/protobuf v1.3.2
+	google.golang.org/grpc v1.25.1
+)
